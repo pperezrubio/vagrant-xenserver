@@ -117,6 +117,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     xs.xs_password = "xenroot"
     xs.pv = true
     xs.memory = 2048
+    xs.cpus = 2
     xs.use_himn = false
   end
 

@@ -48,6 +48,11 @@ module VagrantPlugins
       # @return [Int]
       attr_accessor :memory
 
+      # CPUs
+      #
+      # @return [Int]
+      attr_accessor :cpus
+
       # XVA URL: If this is set, we'll assume that the XenServer should directly download an XVA from the specified URL
       #
       # @return [String]
